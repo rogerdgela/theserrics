@@ -1,8 +1,70 @@
 * {
     font-family: Arial;
+    color: #fff;
 }
 
 body {
     margin: 0;
     padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding-right: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+nav .active a,
+nav a:hover {
+    color: black;
+    background-color: red;
+    border-radius: 3px;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
 }
