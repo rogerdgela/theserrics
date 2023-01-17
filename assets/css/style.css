@@ -48,7 +48,7 @@ nav ul {
 
 nav a {
     display: block;
-    padding: 15px;
+    padding: 14px 25px;
     color: black;
     text-decoration: none;
 }
@@ -56,11 +56,11 @@ nav a {
 nav .active a,
 nav a:hover {
     color: #ffffff;
-    background-color: darkred;
+    background-color: #027373;
     border-radius: 3px;
 }
 
-#banner {
+#challenge {
     display: flex;
     justify-content: center;
     background-image: url("../images/background.jpg");
@@ -73,7 +73,7 @@ nav a:hover {
     flex-direction: column;
 }
 
-.banner_headline {
+.challenge_headline {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@ nav a:hover {
     align-items: flex-end;
 }
 
-.banner_headline h1 {
+.challenge_headline h1 {
     color: #FFFFFF;
     font-size: 70px;
     font-weight: 600;
@@ -90,7 +90,7 @@ nav a:hover {
     max-width: 400px;
 }
 
-.banner_headline p {
+.challenge_headline p {
     color: #FFFFFF;
     font-size: 15px;
     margin: 0;
@@ -102,14 +102,14 @@ nav a:hover {
 .buttons {
     width: 400px;
     max-width: 400px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .btns {
     text-transform: uppercase;
     font-size: 12px;
-    background-color: darkred;
-    padding: 15px;
+    background-color: #027373;
+    padding: 20px 30px;
     color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
@@ -119,7 +119,81 @@ nav a:hover {
 
 .btns:hover {
     text-transform: uppercase;
-    background-color: #710101;
+    background-color: #014b4b;
     color: #ffffff;
     border-radius: 5px;
+}
+
+.challenge_options {
+    position: relative;
+    display: flex;
+    bottom: -300px;
+    height: 400px;
+}
+
+.challenge1,
+.challenge2,
+.challenge3 {
+    flex: 1;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.challenge1 {
+    background-color: #0D0D0D;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.challenge2 {
+    background-color: #038C7F;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.challenge_fig {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.challenge_fig img {
+    width: 150px;
+    border-radius: 100px;
+}
+
+.challenge_list {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    height: 40px;
+    align-items: center;
+    font-size: 13px;
+}
+
+.challenge_name {
+    display: flex;
+    justify-content: center;
+}
+
+.challenge_name h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.challenge_link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.challenge_options a {
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 500;
 }
