@@ -209,3 +209,11 @@ svg:hover {
     text-decoration: none;
     font-weight: 500;
 }
+
+#last-challenge {
+    background-color: #222831;
+}
+
+.last-challenge-general img {
+    width: 33%;
+}
