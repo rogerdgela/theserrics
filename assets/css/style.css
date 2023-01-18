@@ -56,11 +56,12 @@ nav a {
 nav .active a,
 nav a:hover {
     color: #ffffff;
-    background-color: #027373;
+    background-color: #0CABA8;
     border-radius: 3px;
+    text-decoration: none;
 }
 
-#challenge {
+#background {
     display: flex;
     justify-content: center;
     background-image: url("../images/background.jpg");
@@ -73,15 +74,17 @@ nav a:hover {
     flex-direction: column;
 }
 
-.challenge_headline {
+.background_headline {
+    position: relative;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    top: -60px;
 }
 
-.challenge_headline h1 {
+.background_headline h1 {
     color: #FFFFFF;
     font-size: 70px;
     font-weight: 600;
@@ -90,7 +93,7 @@ nav a:hover {
     max-width: 400px;
 }
 
-.challenge_headline p {
+.background_headline p {
     color: #FFFFFF;
     font-size: 15px;
     margin: 0;
@@ -108,7 +111,7 @@ nav a:hover {
 .btns {
     text-transform: uppercase;
     font-size: 12px;
-    background-color: #027373;
+    background-color: #0CABA8;
     padding: 20px 30px;
     color: #ffffff;
     border-radius: 5px;
@@ -119,38 +122,39 @@ nav a:hover {
 
 .btns:hover {
     text-transform: uppercase;
-    background-color: #014b4b;
+    background-color: #015958;
     color: #ffffff;
     border-radius: 5px;
+}
+
+#challenge {
+    background-color: #222831;
 }
 
 .challenge_options {
     position: relative;
     display: flex;
-    bottom: -300px;
-    height: 400px;
+    top: -150px;
 }
 
 .challenge1,
-.challenge2,
-.challenge3 {
+.challenge2 {
     flex: 1;
     color: #FFFFFF;
     padding: 20px;
 }
 
 .challenge1 {
-    background-color: #0D0D0D;
+    background-color: #011d1d;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
 .challenge2 {
-    background-color: #038C7F;
+    background-color: #0FC2C0;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
 
 .challenge_fig {
     font-size: 12px;
@@ -163,15 +167,6 @@ nav a:hover {
 .challenge_fig img {
     width: 150px;
     border-radius: 100px;
-}
-
-.challenge_list {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
-    height: 40px;
-    align-items: center;
-    font-size: 13px;
 }
 
 .challenge_name {
