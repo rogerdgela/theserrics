@@ -170,6 +170,13 @@ nav a:hover {
     transition: all 300ms ease-in-out;
 }
 
+svg {
+    transition: all 300ms ease-in-out;
+}
+svg:hover {
+    transform: translate(-2%, 2%) scale(1.1);
+  }
+
 .challenge_fig img:hover {
   transform: translate(-2%, 2%) scale(1.1);
 }
