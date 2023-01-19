@@ -11,7 +11,7 @@ body {
 header {
     display: flex;
     justify-content: center;
-    height: 120px;
+    height: 100px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -211,9 +211,39 @@ svg:hover {
 }
 
 #last-challenge {
+    display: flex;
+    justify-content: center;
     background-color: #222831;
 }
 
+.widget_title {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    height: 23px;
+    line-height: 23px;
+    top: -25px;
+}
+
+.widget_title_text {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: bold;
+    height: 23px;
+    margin-left: 23px;
+}
+
+.widget_title_bar {
+    width: 10px;
+    height: 23px;
+    background-color: #0CABA8;
+}
+
+.widget_body {
+    display: flex;
+}
+
 .last-challenge-general img {
-    width: 33%;
+    width: 100%;
 }
