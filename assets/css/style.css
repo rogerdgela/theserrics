@@ -57,10 +57,12 @@ nav .active a,
 nav a:hover {
     color: #ffffff;
     background-color: #0CABA8;
-    border-radius: 3px;
+    border-radius: 4px;
     text-decoration: none;
     transition: all 300ms ease-in-out;
+
 }
+
 
 #background {
     display: flex;
@@ -246,4 +248,18 @@ svg:hover {
 
 .last-challenge-general img {
     width: 100%;
+}
+
+.last-challenge-general img{
+    transition: all 300ms ease-in-out;
+
+}
+
+.last-challenge-general img:hover{
+    transform: translate(-3%, -3%) scale(1.1);
+    
+}
+
+.last-challenge-general img {
+    border: 0.1rem solid darkgray;
 }
