@@ -56,11 +56,10 @@ nav a {
 
 nav .active a,
 nav a:hover {
-    color: #ffffff;
-    background-color: #0CABA8;
-    border-radius: 3px;
+    color: #0CABA8;
+    border-bottom: 3px solid #0CABA8;
     text-decoration: none;
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 #background {
@@ -132,8 +131,8 @@ nav a:hover {
 
 .btns:hover {
     text-transform: uppercase;
-    background-color: #015958;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #015958 !important;
     border-radius: 5px;
 }
 
