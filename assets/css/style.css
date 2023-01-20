@@ -249,14 +249,14 @@ svg:hover {
     display: flex;
 }
 
-.last-challenge-general {
+.last-challenge-image {
     position: relative;
     margin: auto;
     overflow: hidden;
     width: 100%;
 }
 
-.last-challenge-general img {
+.last-challenge-image img {
     max-width: 100%;
     transition: all 0.3s;
     display: block;
@@ -265,6 +265,27 @@ svg:hover {
     transform: scale(1);
 }
 
-.last-challenge-general:hover img {
+.last-challenge-image:hover img {
     transform: scale(1.1);
+}
+
+.last-challenge-title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    top: 60%;
+}
+
+.last-challenge-title i {
+    display: block;
+    margin-bottom: 70px;
+    font-size: 70px;
+    color: #0FC2C0;
+}
+
+.last-challenge-title span {
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 10px;
+    border-radius: 5px;
 }
