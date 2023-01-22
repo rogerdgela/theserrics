@@ -1,6 +1,13 @@
+:root {
+    --verde-agua: #0CABA8;
+    --preto: #000000;
+    --branco: #ffffff;
+    --preto-fundo-section: #222831;
+}
+
 * {
     font-family: "Montserrat", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    color: #fff;
+    color: var(--branco);
 }
 
 body {
@@ -17,11 +24,14 @@ body {
     margin-top: 80px;
 }
 
+.bg-verde-agua {
+    background-color: var(--verde-agua);
+}
+
 header {
     display: flex;
     justify-content: center;
     height: 100px;
-    background-color: rgb(255, 255, 255);
     z-index: 1;
 }
 
@@ -60,14 +70,14 @@ nav ul {
 nav a {
     display: block;
     padding: 14px 25px;
-    color: black;
+    color: var(--preto);
     text-decoration: none;
 }
 
 nav .active a,
 nav a:hover {
-    color: #0CABA8;
-    border-bottom: 3px solid #0CABA8;
+    color: var(--verde-agua);
+    border-bottom: 3px solid var(--verde-agua);
     text-decoration: none;
     transition: all 200ms ease-in-out;
 }
@@ -100,7 +110,7 @@ nav a:hover {
 .background_headline h1 {
     position: relative;
     top: -80px;
-    color: #FFFFFF;
+    color: var(--branco);
     font-size: 70px;
     font-weight: 600;
     margin: 0;
@@ -111,7 +121,7 @@ nav a:hover {
 .background_headline p {
     position: relative;
     top: -80px;
-    color: #FFFFFF;
+    color: var(--branco);
     font-size: 15px;
     margin: 0;
     padding: 0;
@@ -130,9 +140,9 @@ nav a:hover {
 .btns {
     text-transform: uppercase;
     font-size: 12px;
-    background-color: #0CABA8;
+    background-color: var(--verde-agua);
     padding: 20px 30px;
-    color: #ffffff;
+    color: var(--branco);
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
@@ -142,13 +152,13 @@ nav a:hover {
 
 .btns:hover {
     text-transform: uppercase;
-    background-color: #ffffff;
-    color: #015958 !important;
+    background-color: var(--branco);
+    color: var(--verde-agua) !important;
     border-radius: 5px;
 }
 
 #challenge {
-    background-color: #222831;
+    background-color: var(--preto-fundo-section);
 }
 
 .challenge_options {
@@ -160,7 +170,7 @@ nav a:hover {
 .challenge1,
 .challenge2 {
     flex: 1;
-    color: #FFFFFF;
+    color: var(--branco);
     padding: 20px;
 }
 
@@ -171,7 +181,7 @@ nav a:hover {
 }
 
 .challenge2 {
-    background-color: #0FC2C0;
+    background-color: var(--verde-agua);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -218,7 +228,7 @@ nav a:hover {
     width: 40px;
     margin: 5px;
     padding: 0 5px;
-    color: #FFFFFF;
+    color: var(--branco);
     font-size: 25px;
     text-decoration: none;
     font-weight: 500;
@@ -232,7 +242,7 @@ nav a:hover {
 #last-challenge {
     display: flex;
     justify-content: center;
-    background-color: #222831;
+    background-color: var(--preto-fundo-section);
     bottom: 50px;
 }
 
@@ -255,7 +265,7 @@ nav a:hover {
 }
 
 .widget_title_text {
-    color: #ffffff;
+    color: var(--branco);
     font-size: 21px;
     font-weight: bold;
     height: 23px;
@@ -265,7 +275,7 @@ nav a:hover {
 .widget_title_bar {
     width: 10px;
     height: 23px;
-    background-color: #0CABA8;
+    background-color: var(--verde-agua);
 }
 
 .widget_body {
@@ -310,13 +320,13 @@ nav a:hover {
     display: flex;
     font-size: 50px;
     width: 45px;
-    color: #0FC2C0;
+    color: var(--verde-agua);
     float: left;
     margin-right: 5px;
 }
 
 .last-challenge-title i:hover{
-    color: white;
+    color: var(--branco);
 }
 
 .last-challenge-title span {
@@ -329,7 +339,7 @@ nav a:hover {
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: #222831;
+    background-color: var(--preto-fundo-section);
 }
 
 .widget table {
@@ -337,10 +347,9 @@ nav a:hover {
 }
 
 #footer {
-    position: relative;
     top: 0;
     display: flex;
     justify-content: center;
-    background-color: #222831;
+    background-color: var(--preto-fundo-section);
     height: 100px;
 }
