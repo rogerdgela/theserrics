@@ -160,6 +160,27 @@ nav a:hover {
 #challenge {
     background-color: var(--preto-fundo-section);
 }
+.challenge_title {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    font-size: 55px;
+    line-height: 50px;
+    z-index: 1;
+}
+
+.challenge_title span {
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.challenge_title span:first-child {
+    font-size: 20px;
+}
 
 .challenge_options {
     display: flex;
