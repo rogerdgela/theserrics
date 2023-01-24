@@ -433,6 +433,15 @@ footer {
     margin-top: 30px;
 }
 
+.list_partners li {
+    height: 40px !important;
+    line-height: 40px !important;
+}
+
+.footer_img {
+    height: 35px;
+}
+
 .footer_copy span {
     color: deeppink;
 }
