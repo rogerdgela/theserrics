@@ -1,24 +1,45 @@
+:root {
+    --verde-agua: #0CABA8;
+    --preto: #000000;
+    --branco: #ffffff;
+    --preto-fundo-section: #222831;
+}
+
 * {
     font-family: "Montserrat", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    color: #fff;
+    color: var(--branco);
 }
 
 body {
     margin: 0;
     padding: 0;
+
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.bg-verde-agua {
+    background-color: var(--verde-agua);
 }
 
 header {
     display: flex;
     justify-content: center;
     height: 100px;
-    background-color: rgb(255, 255, 255);
+    z-index: 1;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     width: 1110px;
+
 }
 
 .logo {
@@ -49,18 +70,16 @@ nav ul {
 nav a {
     display: block;
     padding: 14px 25px;
-    color: black;
+    color: var(--preto);
     text-decoration: none;
 }
 
 nav .active a,
 nav a:hover {
-    color: #ffffff;
-    background-color: #0CABA8;
-    border-radius: 4px;
+    color: var(--verde-agua);
+    border-bottom: 3px solid var(--verde-agua);
     text-decoration: none;
-    transition: all 300ms ease-in-out;
-
+    transition: all 200ms ease-in-out;
 }
 
 
@@ -71,6 +90,7 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     height: 700px;
+    z-index: 2;
 }
 
 .column {
@@ -84,11 +104,13 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    top: -60px;
+    top: 0;
 }
 
 .background_headline h1 {
-    color: #FFFFFF;
+    position: relative;
+    top: -80px;
+    color: var(--branco);
     font-size: 70px;
     font-weight: 600;
     margin: 0;
@@ -97,7 +119,9 @@ nav a:hover {
 }
 
 .background_headline p {
-    color: #FFFFFF;
+    position: relative;
+    top: -80px;
+    color: var(--branco);
     font-size: 15px;
     margin: 0;
     padding: 0;
@@ -106,6 +130,8 @@ nav a:hover {
 }
 
 .buttons {
+    position: relative;
+    top: -80px;
     width: 400px;
     max-width: 400px;
     margin-top: 30px;
@@ -114,9 +140,9 @@ nav a:hover {
 .btns {
     text-transform: uppercase;
     font-size: 12px;
-    background-color: #0CABA8;
+    background-color: var(--verde-agua);
     padding: 20px 30px;
-    color: #ffffff;
+    color: var(--branco);
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
@@ -126,25 +152,46 @@ nav a:hover {
 
 .btns:hover {
     text-transform: uppercase;
-    background-color: #015958;
-    color: #ffffff;
+    background-color: var(--branco);
+    color: var(--verde-agua) !important;
     border-radius: 5px;
 }
 
 #challenge {
-    background-color: #222831;
+    background-color: var(--preto-fundo-section);
+}
+.challenge_title {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    font-size: 55px;
+    line-height: 50px;
+    z-index: 1;
+}
+
+.challenge_title span {
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.challenge_title span:first-child {
+    font-size: 20px;
 }
 
 .challenge_options {
-    position: relative;
     display: flex;
-    top: -150px;
+    position: relative;
+    bottom: 120px;
 }
 
 .challenge1,
 .challenge2 {
     flex: 1;
-    color: #FFFFFF;
+    color: var(--branco);
     padding: 20px;
 }
 
@@ -155,7 +202,7 @@ nav a:hover {
 }
 
 .challenge2 {
-    background-color: #0FC2C0;
+    background-color: var(--verde-agua);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -171,13 +218,6 @@ nav a:hover {
 .challenge_fig img {
     transition: all 300ms ease-in-out;
 }
-
-svg {
-    transition: all 300ms ease-in-out;
-}
-svg:hover {
-    transform: translate(-2%, 2%) scale(1.1);
-  }
 
 .challenge_fig img:hover {
   transform: translate(-2%, 2%) scale(1.1);
@@ -204,32 +244,49 @@ svg:hover {
     justify-content: center;
 }
 
-.challenge_options a {
-    padding: 10px;
-    color: #FFFFFF;
-    font-size: 12px;
+.challenge_link a {
+    text-align: center;
+    width: 40px;
+    margin: 5px;
+    padding: 0 5px;
+    color: var(--branco);
+    font-size: 25px;
     text-decoration: none;
     font-weight: 500;
+    transition: all 300ms ease-in-out;
+}
+
+.challenge_link a:hover {
+    transform: translate(-2%, 2%) scale(1.1);
 }
 
 #last-challenge {
     display: flex;
     justify-content: center;
-    background-color: #222831;
+    background-color: var(--preto-fundo-section);
+    bottom: 50px;
+}
+
+.widget {
+    display: block;
+    width: 100%;
 }
 
 .widget_title {
-    position: relative;
     display: flex;
-    margin-bottom: 20px;
+    position: relative;
+    bottom: 35px;
     justify-content: flex-start;
     height: 23px;
     line-height: 23px;
-    top: -25px;
+}
+
+#last-challenge .widget_title{
+    bottom: 52px;
 }
 
 .widget_title_text {
-    color: #ffffff;
+    color: var(--branco);
     font-size: 21px;
     font-weight: bold;
     height: 23px;
@@ -239,27 +296,81 @@ svg:hover {
 .widget_title_bar {
     width: 10px;
     height: 23px;
-    background-color: #0CABA8;
+    background-color: var(--verde-agua);
 }
 
 .widget_body {
     display: flex;
+    position: relative;
+    bottom: 18px;
 }
 
-.last-challenge-general img {
+.last-challenge-image {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
     width: 100%;
+    cursor: pointer;
 }
 
-.last-challenge-general img{
-    transition: all 300ms ease-in-out;
-
+.last-challenge-image img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
 }
 
-.last-challenge-general img:hover{
-    transform: translate(-3%, -3%) scale(1.1);
-    
+.last-challenge-image:hover img {
+    transform: scale(1.1);
+    opacity: 0.6;
 }
 
-.last-challenge-general img {
-    border: 0.1rem solid darkgray;
+.last-challenge-title {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    bottom: 20px;
+    height: 50px;
+    line-height: 50px;
+    padding: 10px;
+}
+
+.last-challenge-title i {
+    display: flex;
+    font-size: 50px;
+    width: 45px;
+    color: var(--verde-agua);
+    float: left;
+    margin-right: 5px;
+}
+
+.last-challenge-title i:hover{
+    color: var(--branco);
+}
+
+.last-challenge-title span {
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: left;
+}
+
+#last-challenge-results {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: var(--preto-fundo-section);
+}
+
+.widget table {
+    font-size: 15px;
+}
+
+#footer {
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--preto-fundo-section);
+    height: 100px;
 }
