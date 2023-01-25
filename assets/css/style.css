@@ -428,6 +428,29 @@ footer {
     line-height: 30px;
 }
 
+.footer_location, .footer_whatsapp {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.footer_location a, .footer_whatsapp a {
+    color: var(--branco);
+}
+
+.footer_location a:hover, .footer_whatsapp a:hover {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.footer_location i {
+    color: red;
+}
+
+.footer_whatsapp i {
+    color: #25D366;
+}
+
 .footer_copy {
     border-top: 1px solid #404040;
     height: 40px;
