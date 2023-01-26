@@ -2,7 +2,8 @@
     --verde-agua: #0CABA8;
     --preto: #000000;
     --branco: #ffffff;
-    --preto-fundo-section: #222831;
+    --fundo-section-1: #1A1E25;
+    --fundo-section-2: #222831;
 }
 
 * {
@@ -14,6 +15,10 @@ body {
     margin: 0;
     padding: 0;
 
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 .mt-40 {
@@ -158,7 +163,7 @@ nav a:hover {
 }
 
 #challenge {
-    background-color: var(--preto-fundo-section);
+    background-color: var(--fundo-section-1);
 }
 .challenge_title {
     height: 50px;
@@ -263,7 +268,7 @@ nav a:hover {
 #last-challenge {
     display: flex;
     justify-content: center;
-    background-color: var(--preto-fundo-section);
+    background-color: var(--fundo-section-1);
     bottom: 50px;
 }
 
@@ -360,9 +365,57 @@ nav a:hover {
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: var(--preto-fundo-section);
+    background-color: var(--fundo-section-1);
     padding-bottom: 40px;
 }
+
+#news {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: var(--fundo-section-2);
+    padding-bottom: 40px;
+}
+
+.news-img img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.news-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+
+.news-body {
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+.news-date {
+    font-size: 12px;
+    color: #64686F;
+    font-weight: 600;
+}
+
+.news-title {
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.news-text {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
 
 .widget table {
     font-size: 15px;
