@@ -74,7 +74,7 @@ nav ul {
 
 nav a {
     display: block;
-    padding: 14px 25px;
+    padding: 14px 20px;
     color: var(--preto);
     text-decoration: none;
 }
@@ -389,7 +389,6 @@ nav a:hover {
     width: 100%;
     height: auto;
     display: flex;
-
 }
 
 .news-body {
@@ -399,8 +398,13 @@ nav a:hover {
 
 .news-body a {
     color: var(--verde-agua);
-    
+}
 
+.news-body a:hover {
+    color: var(--verde-agua);
+    transition: all 0.3s;
+    opacity: 0.6;
+    text-decoration: none;
 }
 
 .news-date {
@@ -420,8 +424,6 @@ nav a:hover {
     width: 100%;
     margin-bottom: 15px;
 }
-
-
 
 .widget table {
     font-size: 15px;
@@ -530,4 +532,97 @@ footer {
 
 .footer_copy span {
     color: var(--verde-agua);
+}
+
+@media screen and (max-width: 800px) {
+    .menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    
+    .mm_line {
+        height: 5px;
+        background-color: var(--verde-agua);
+        border-radius: 5px;
+    }
+
+    nav ul {
+        font-size: 1rem;
+        flex-direction: column;
+        position: absolute;
+        display: none;
+        top: 100px;
+        right: 0;
+        width: 250px;
+        background-color: #FFFFFF;
+        z-index: 1;
+        padding: 0;
+    }
+
+    nav .active a,
+    nav a:hover {
+        color: var(--verde-agua);
+        background-color: var(--verde-agua);
+        text-decoration: none;
+        transition: all 200ms ease-in-out;
+        border: 0;
+        color: var(--branco);
+    }
+    
+    .news-img img {
+        width: 150px;
+        border-radius: 10px;
+    }
+    
+    .news-box {
+        margin-bottom: 50px;
+    }
+
+    .news-box:last-child {
+        margin-bottom: 0;
+    }
+    
+    .news-body {
+        box-sizing: border-box;
+        margin-left: 15px;
+    }
+    
+    .news-body a {
+        color: var(--verde-agua);
+    }
+    
+    .news-body a:hover {
+        color: var(--verde-agua);
+        transition: all 0.3s;
+        opacity: 0.6;
+        text-decoration: none;
+    }
+    
+    .news-date {
+        font-size: 12px;
+        color: #64686F;
+        font-weight: 600;
+    }
+    
+    .news-title {
+        width: 100%;
+        font-weight: 600;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    
+    .news-text {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .flex_column_responsive {
+        flex-direction: column;
+    }
 }
