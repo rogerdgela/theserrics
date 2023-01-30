@@ -165,6 +165,7 @@ nav a:hover {
 #challenge {
     background-color: var(--fundo-section-1);
 }
+
 .challenge_title {
     height: 50px;
     width: 100%;
@@ -534,7 +535,7 @@ footer {
     color: var(--verde-agua);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .menu_mobile {
         display: flex;
         flex-direction: column;
@@ -624,5 +625,22 @@ footer {
 
     .flex_column_responsive {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #background {
+        height: 400px;
+    }
+
+    .background_headline h1 {
+        max-width: 425px;
+        font-size: 3.8rem;
+        margin-top: 40px;;
+    }
+    
+    .background_headline p {
+        font-size: 1rem;
+        max-width: 425px;
     }
 }
