@@ -179,9 +179,9 @@ nav a:hover {
 
 .challenge_title span {
     font-weight: 600;
-    padding: 10px;
-    border-radius: 5px;
+    height: 40px;
     color: white;
+    display: block;
 }
 
 .challenge_title span:first-child {
@@ -575,6 +575,21 @@ footer {
         border: 0;
         color: var(--branco);
     }
+
+    #background {
+        height: 400px;
+    }
+
+    .background_headline h1 {
+        max-width: 400px;
+        font-size: 3.8rem;
+        margin-top: 55px;;
+    }
+    
+    .background_headline p {
+        font-size: 1rem;
+        max-width: 400px;
+    }
     
     .news-img img {
         width: 150px;
@@ -634,13 +649,65 @@ footer {
     }
 
     .background_headline h1 {
-        max-width: 425px;
+        max-width: 395px;
         font-size: 3.8rem;
-        margin-top: 40px;;
+        margin-top: 60px;
     }
     
     .background_headline p {
         font-size: 1rem;
-        max-width: 425px;
+        max-width: 395px;
+    }
+
+    .buttons {
+        width: 395px;
+        max-width: 395px;
+        margin-top: 30px;
+    }
+    
+    .btns {
+        font-size: 0.8rem;
+    }
+    
+    .flex_column_responsive-challenge {
+        flex-direction: column;
+    }
+
+    .challenge_options {
+        bottom: 70px;
+    }
+
+    .challenge1 {
+        background-color: #011d1d;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    
+    .challenge2 {
+        background-color: var(--verde-agua);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0;
+    }
+
+    .challenge_title {
+        display: none;
+    }
+
+    .challenge_description p {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    #last-challenge .widget_title{
+        bottom: 10px;
+        margin-bottom: 45px;
+    }
+
+    .footer_copy {
+        height: 100%;
+        line-height: 25px;
+        margin-top: 30px;
     }
 }
