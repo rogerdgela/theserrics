@@ -1,9 +1,9 @@
 :root {
-    --color-default: #0CABA8;
-    --color-primary: #0455BF;
-    --color-secondary: #048ABF;
-    --color-tertiary: #049DBF;
-    --color-quarter: #04ADBF;
+    --color-default: #2A8C82;
+    --color-primary: #41BFB3;
+    --color-secondary: #9BF2EA;
+    --color-tertiary: #275950;
+    --color-quarter: #142e29;
     --color-fifth: #0477BF;
     --preto: #000000;
     --branco: #ffffff;
@@ -34,7 +34,7 @@ body {
     margin-top: 80px;
 }
 
-.bg-color-default {
+.bg-color-tr-tb {
     background-color: var(--color-default);
 }
 
@@ -207,7 +207,7 @@ nav a:hover {
 }
 
 .challenge1 {
-    background-color: #011d1d;
+    background-color: var(--color-quarter);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
