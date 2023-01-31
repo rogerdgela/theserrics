@@ -1,5 +1,10 @@
 :root {
-    --verde-agua: #0CABA8;
+    --color-default: #2A8C82;
+    --color-primary: #41BFB3;
+    --color-secondary: #9BF2EA;
+    --color-tertiary: #275950;
+    --color-quarter: #142e29;
+    --color-fifth: #0477BF;
     --preto: #000000;
     --branco: #ffffff;
     --fundo-section-1: #1A1E25;
@@ -29,8 +34,8 @@ body {
     margin-top: 80px;
 }
 
-.bg-verde-agua {
-    background-color: var(--verde-agua);
+.bg-color-tr-tb {
+    background-color: var(--color-default);
 }
 
 header {
@@ -81,8 +86,8 @@ nav a {
 
 nav .active a,
 nav a:hover {
-    color: var(--verde-agua);
-    border-bottom: 3px solid var(--verde-agua);
+    color: var(--color-default);
+    border-bottom: 3px solid var(--color-default);
     text-decoration: none;
     transition: all 200ms ease-in-out;
 }
@@ -145,7 +150,7 @@ nav a:hover {
 .btns {
     text-transform: uppercase;
     font-size: 12px;
-    background-color: var(--verde-agua);
+    background-color: var(--color-default);
     padding: 20px 30px;
     color: var(--branco);
     border-radius: 5px;
@@ -158,7 +163,7 @@ nav a:hover {
 .btns:hover {
     text-transform: uppercase;
     background-color: var(--branco);
-    color: var(--verde-agua) !important;
+    color: var(--color-default) !important;
     border-radius: 5px;
 }
 
@@ -202,13 +207,13 @@ nav a:hover {
 }
 
 .challenge1 {
-    background-color: #011d1d;
+    background-color: var(--color-quarter);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
 .challenge2 {
-    background-color: var(--verde-agua);
+    background-color: var(--color-default);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -302,7 +307,7 @@ nav a:hover {
 .widget_title_bar {
     width: 10px;
     height: 23px;
-    background-color: var(--verde-agua);
+    background-color: var(--color-default);
 }
 
 .widget_body {
@@ -347,7 +352,7 @@ nav a:hover {
     display: flex;
     font-size: 50px;
     width: 45px;
-    color: var(--verde-agua);
+    color: var(--color-default);
     float: left;
     margin-right: 5px;
 }
@@ -385,7 +390,6 @@ nav a:hover {
 
 .news-box {
     position: relative;
-    margin: auto;
     overflow: hidden;
     width: 100%;
     height: auto;
@@ -394,15 +398,15 @@ nav a:hover {
 
 .news-body {
     box-sizing: border-box;
-    margin-left: 15px;
+    padding: 0 20px;
 }
 
 .news-body a {
-    color: var(--verde-agua);
+    color: var(--color-default);
 }
 
 .news-body a:hover {
-    color: var(--verde-agua);
+    color: var(--color-default);
     transition: all 0.3s;
     opacity: 0.6;
     text-decoration: none;
@@ -471,7 +475,7 @@ footer {
 .footer_areaitem .footer_title_bar {
     width: 80px;
     height: 3px;
-    background-color: var(--verde-agua);
+    background-color: var(--color-default);
     margin-top: 7px;
 }
 
@@ -532,7 +536,7 @@ footer {
 }
 
 .footer_copy span {
-    color: var(--verde-agua);
+    color: var(--color-default);
 }
 
 @media screen and (max-width: 768px) {
@@ -549,7 +553,7 @@ footer {
     
     .mm_line {
         height: 5px;
-        background-color: var(--verde-agua);
+        background-color: var(--color-default);
         border-radius: 5px;
     }
 
@@ -568,8 +572,8 @@ footer {
 
     nav .active a,
     nav a:hover {
-        color: var(--verde-agua);
-        background-color: var(--verde-agua);
+        color: var(--color-default);
+        background-color: var(--color-default);
         text-decoration: none;
         transition: all 200ms ease-in-out;
         border: 0;
@@ -606,15 +610,15 @@ footer {
     
     .news-body {
         box-sizing: border-box;
-        margin-left: 15px;
+        padding: 0 20px;
     }
     
     .news-body a {
-        color: var(--verde-agua);
+        color: var(--color-default);
     }
     
     .news-body a:hover {
-        color: var(--verde-agua);
+        color: var(--color-default);
         transition: all 0.3s;
         opacity: 0.6;
         text-decoration: none;
@@ -678,14 +682,14 @@ footer {
     }
 
     .challenge1 {
-        background-color: #011d1d;
+        background-color: #093333;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-left-radius: 0;
     }
     
     .challenge2 {
-        background-color: var(--verde-agua);
+        background-color: var(--color-default);
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         border-top-right-radius: 0;
