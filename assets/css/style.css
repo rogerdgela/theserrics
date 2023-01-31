@@ -722,15 +722,13 @@ footer {
     }
 
     .background_headline h1 {
-        max-width: 395px;
-        font-size: 3.0rem;
+        font-size: 3rem;
         margin-top: 80px;
     }
 
     .buttons {
-        width: 345px;
-        max-width: 395px;
-        margin-top: 20px;
+        max-width: 345px;
+        margin-top: 22px;
     }
 
     .btns {
@@ -738,4 +736,17 @@ footer {
         padding: 15px;
     }
 
+    .table {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .buttons {
+        max-width: 290px;
+    }
+
+    .table {
+        font-size: 0.6rem !important;
+    }
 }
