@@ -711,3 +711,27 @@ footer {
         margin-top: 30px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    #background {
+        height: 350px;
+    }
+
+    .background_headline h1 {
+        max-width: 395px;
+        font-size: 3.0rem;
+        margin-top: 80px;
+    }
+
+    .buttons {
+        width: 345px;
+        max-width: 395px;
+        margin-top: 20px;
+    }
+
+    .btns {
+        font-size: 0.7rem;
+        padding: 15px;
+    }
+
+}
