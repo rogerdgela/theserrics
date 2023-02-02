@@ -1,10 +1,12 @@
-window.onload = () => {
-    document.querySelector('.menu_mobile').addEventListener('click', () => {
-        if(document.querySelector('.menu nav ul').style.display === 'flex') {
-            document.querySelector('.menu nav ul').style.display = 'none';
+$(function(){
+    $('.menu_mobile').click(function(){
+        let list_menu = $('.menu nav ul');
+
+        if(list_menu.is(':hidden') === true) {
+            list_menu.slideDown("slow");
         }else {
-            document.querySelector('.menu nav ul').style.display = 'flex';
+            list_menu.slideUp("slow");
         }
     });
-}
+});
 

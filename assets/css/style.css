@@ -96,11 +96,17 @@ nav a:hover {
 #background {
     display: flex;
     justify-content: center;
-    background-image: url("../images/background.jpg");
-    background-position: center;
-    background-size: cover;
+    width: 100%;
     height: 700px;
     z-index: 2;
+}
+
+.background-single {
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 83%;
 }
 
 .column {
@@ -584,6 +590,10 @@ footer {
         height: 400px;
     }
 
+    .background-single {
+        height: 50%;
+    }
+
     .background_headline h1 {
         max-width: 400px;
         font-size: 3.8rem;
@@ -648,10 +658,6 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
-    #background {
-        height: 400px;
-    }
-
     .background_headline h1 {
         max-width: 395px;
         font-size: 3.8rem;
@@ -721,6 +727,10 @@ footer {
         height: 350px;
     }
 
+    .background-single {
+        height: 42%;
+    }
+
     .background_headline h1 {
         font-size: 3rem;
         margin-top: 80px;
@@ -729,6 +739,7 @@ footer {
     .buttons {
         max-width: 345px;
         margin-top: 22px;
+        margin-bottom: 10px;;
     }
 
     .btns {
