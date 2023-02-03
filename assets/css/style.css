@@ -106,7 +106,7 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 83%;
+    height: 84%;
 }
 
 .column {
@@ -131,7 +131,7 @@ nav a:hover {
     font-weight: 600;
     margin: 0;
     padding: 0;
-    max-width: 400px;
+    width: 400px;
 }
 
 .background_headline p {
@@ -141,7 +141,7 @@ nav a:hover {
     font-size: 15px;
     margin: 0;
     padding: 0;
-    max-width: 400px;
+    width: 400px;
     margin-top: 5px;
 }
 
@@ -149,7 +149,6 @@ nav a:hover {
     position: relative;
     top: -80px;
     width: 400px;
-    max-width: 400px;
     margin-top: 30px;
 }
 
@@ -331,7 +330,7 @@ nav a:hover {
 }
 
 .last-challenge-image img {
-    max-width: 100%;
+    width: 100%;
     transition: all 0.3s;
     display: block;
     width: 100%;
@@ -591,18 +590,18 @@ footer {
     }
 
     .background-single {
-        height: 50%;
+        height: 51%;
     }
 
     .background_headline h1 {
-        max-width: 400px;
+        width: 400px;
         font-size: 3.8rem;
         margin-top: 55px;;
     }
     
     .background_headline p {
         font-size: 1rem;
-        max-width: 400px;
+        width: 400px;
     }
     
     .news-img img {
@@ -659,19 +658,18 @@ footer {
 
 @media screen and (max-width: 425px) {
     .background_headline h1 {
-        max-width: 395px;
+        width: 395px;
         font-size: 3.8rem;
         margin-top: 60px;
     }
     
     .background_headline p {
         font-size: 1rem;
-        max-width: 395px;
+        width: 395px;
     }
 
     .buttons {
         width: 395px;
-        max-width: 395px;
         margin-top: 30px;
     }
     
@@ -734,10 +732,15 @@ footer {
     .background_headline h1 {
         font-size: 3rem;
         margin-top: 80px;
+        width: 345px;
+    }
+
+    .background_headline p {
+        width: 345px;
     }
 
     .buttons {
-        max-width: 345px;
+        width: 345px;
         margin-top: 22px;
         margin-bottom: 10px;;
     }
@@ -754,7 +757,7 @@ footer {
 
 @media screen and (max-width: 320px) {
     .buttons {
-        max-width: 290px;
+        width: 290px;
     }
 
     .table {
