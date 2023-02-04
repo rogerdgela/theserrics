@@ -9,6 +9,7 @@
     --branco: #ffffff;
     --fundo-section-1: #1A1E25;
     --fundo-section-2: #222831;
+    --fundo-section-3: #313339;
 }
 
 * {
@@ -438,8 +439,18 @@ nav a:hover {
     font-size: 15px;
 }
 
+#carousel {
+    background-color: var(--fundo-section-1);
+    padding: 40px 0;
+}
+
+.carousel {
+    width: 100%;
+    margin: 0 auto;
+}
+
 footer {
-    background-color: #1e1e1e;
+    background-color: #151515;
     display: flex;
     justify-content: center;
     font-size: 14px;
@@ -553,7 +564,7 @@ footer {
     }
 
     .background-single {
-        height: 51%;
+        height: 71%;
     }
 
     .background_headline h1 {
