@@ -1,5 +1,5 @@
 $('.carousel').slick({
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
@@ -7,21 +7,22 @@ $('.carousel').slick({
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 4,
+                slidesToScroll: 4,
                 infinite: true,
                 dots: true
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 769,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2
             }
         },
+
         {
-            breakpoint: 480,
+            breakpoint: 481,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1
