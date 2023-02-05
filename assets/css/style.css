@@ -48,8 +48,7 @@ header {
 .container {
     display: flex;
     justify-content: space-between;
-    width: 1110px;
-
+    width: 1100px;
 }
 
 .logo {
@@ -97,7 +96,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 700px;
+    height: 550px;
     z-index: 2;
 }
 
@@ -106,7 +105,7 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 84%;
+    height: 550px;
 }
 
 .column {
@@ -554,7 +553,7 @@ footer {
     color: var(--color-default);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     nav ul {
         font-size: 0.9rem;
     }
@@ -564,7 +563,7 @@ footer {
     }
 
     .background-single {
-        height: 71%;
+        height: 400px;
     }
 
     .background_headline h1 {
@@ -630,7 +629,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .menu_mobile {
         display: flex;
         flex-direction: column;
@@ -669,6 +668,14 @@ footer {
         transition: all 200ms ease-in-out;
         border: 0;
         color: var(--branco);
+    }
+
+    #background {
+        height: 350px;
+    }
+
+    .background-single {
+        height: 350px;
     }
 
     .background_headline h1 {
@@ -735,6 +742,14 @@ footer {
 }
 
 @media screen and (max-width: 390px) {
+    #background {
+        height: 350px;
+    }
+
+    .background-single {
+        height: 350px;
+    }
+
     .background_headline h1 {
         font-size: 3rem;
         margin-top: 80px;
@@ -760,7 +775,7 @@ footer {
     }
 
     .background-single {
-        height: 53%;
+        height: 350px;
     }
 
     .background_headline h1 {
@@ -791,7 +806,7 @@ footer {
 
 @media screen and (max-width: 320px) {
     .background-single {
-        height: 41%;
+        height: 350px;
     }
 
     .buttons {
