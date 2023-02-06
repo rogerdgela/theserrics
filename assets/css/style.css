@@ -743,6 +743,10 @@ footer {
         line-height: 25px;
         margin-top: 30px;
     }
+
+    .table {
+        font-size: 0.9rem !important;
+    }
 }
 
 @media screen and (max-width: 390px) {
@@ -769,7 +773,7 @@ footer {
     }
 
     .table {
-        font-size: 0.7rem !important;
+        font-size: 0.8rem !important;
     }
 }
 
@@ -804,7 +808,7 @@ footer {
     }
 
     .table {
-        font-size: 0.8rem !important;
+        font-size: 0.7rem !important;
     }
 }
 
