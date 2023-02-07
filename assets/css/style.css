@@ -144,6 +144,7 @@ nav a:hover {
     padding: 0;
     width: 400px;
     background-color: transparent;
+    text-shadow: 3px 3px 2px var(--background-footer);
 }
 
 .background_headline p {
@@ -156,6 +157,7 @@ nav a:hover {
     width: 400px;
     margin-top: 5px;
     background-color: transparent;
+    text-shadow: 1px 1px 1px var(--background-footer);
 }
 
 .buttons {
