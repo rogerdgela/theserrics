@@ -1,7 +1,7 @@
 
-# Projeto THE SERRICS
+# Projeto Limeira Skateboard
 
-Uma página dedicada aos skatistas do famoso pico denominado Serra Loka
+Uma página dedicada aos skatistas de Limeira e região
 
 
 ## Instalação
@@ -22,7 +22,7 @@ Baixe o projeto no github
 
 ## Comandos do git
 
-Antes de começar a desenvolver em sua branch por favor atualize sua versão mergiando com a main.
+Antes de começar a desenvolver em sua branch por favor atualize sua versão mergiando com a revision.
 
 ```bash
   git pull origin revision
