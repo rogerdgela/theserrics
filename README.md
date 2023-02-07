@@ -22,12 +22,12 @@ Baixe o projeto no github
 
 ## Comandos do git
 
-Antes de começar a desenvolver em sua branch por favor autalize sua versão mergiando com a main.
+Antes de começar a desenvolver em sua branch por favor atualize sua versão mergiando com a main.
 
 ```bash
-  git pull origin main
+  git pull origin revision
   git checkout <suabranch>
-  git merge main
+  git merge revision
 ```
 
 Nunca atualize a main sempre a revision confira os passos. Para atualizar a revision primeiro comite o que vc codou.
@@ -37,5 +37,6 @@ Nunca atualize a main sempre a revision confira os passos. Para atualizar a revi
   git commit -m "tarefa"
   git checkout revision
   git merge <suabranch>
+  git push origin revision
 ```
 
