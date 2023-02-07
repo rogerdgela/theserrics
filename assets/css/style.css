@@ -52,7 +52,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 1100px;
-    background-color: var(--branco);
+    background-color: transparent;
 }
 
 .logo {
@@ -107,7 +107,6 @@ nav a:hover {
     width: 100%;
     height: 550px;
     z-index: 2;
-    background-color: var(--branco);
 }
 
 .background-single {
@@ -116,7 +115,6 @@ nav a:hover {
     background-size: cover;
     width: 100%;
     height: 550px;
-    background-color: var(--branco);
 }
 
 .column {
@@ -192,6 +190,10 @@ nav a:hover {
     background-color: var(--fundo-section-1);
 }
 
+.challenges {
+    background-color: transparent;
+}
+
 .challenge_title {
     height: 50px;
     width: 100%;
@@ -201,6 +203,7 @@ nav a:hover {
     font-size: 55px;
     line-height: 50px;
     z-index: 1;
+    background-color: transparent;
 }
 
 .challenge_title span {
@@ -208,6 +211,7 @@ nav a:hover {
     height: 40px;
     color: white;
     display: block;
+    background-color: transparent;
 }
 
 .challenge_title span:first-child {
@@ -218,6 +222,7 @@ nav a:hover {
     display: flex;
     position: relative;
     bottom: 120px;
+    background-color: transparent;
 }
 
 .challenge1,
@@ -245,6 +250,7 @@ nav a:hover {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
+    background-color: transparent;
 }
 
 .challenge_fig img {
@@ -263,17 +269,31 @@ nav a:hover {
 .challenge_name {
     display: flex;
     justify-content: center;
+    background-color: transparent;
 }
 
 .challenge_name h1 {
     font-size: 18px;
     font-weight: 600;
+    background-color: transparent;
+}
+
+.challenge_description {
+    background-color: transparent;
+}
+
+.challenge_description p {
+    background-color: transparent;
 }
 
 .challenge_link {
-    width: 100%;
     display: flex;
     justify-content: center;
+    background-color: transparent;
+}
+
+.challenge_link i {
+    background-color: transparent;
 }
 
 .challenge_link a {
@@ -281,9 +301,7 @@ nav a:hover {
     width: 40px;
     margin: 5px;
     padding: 0 5px;
-    color: var(--branco);
     font-size: 25px;
-    text-decoration: none;
     font-weight: 500;
     transition: all 300ms ease-in-out;
 }
