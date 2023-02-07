@@ -10,11 +10,13 @@
     --fundo-section-1: #1A1E25;
     --fundo-section-2: #222831;
     --fundo-section-3: #313339;
+    --background-footer: #151515;
 }
 
 * {
     font-family: "Montserrat", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color: var(--branco);
+    background-color: var(--background-footer);
 }
 
 body {
@@ -43,26 +45,31 @@ header {
     justify-content: center;
     height: 100px;
     z-index: 1;
+    background-color: var(--branco);
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     width: 1100px;
+    background-color: var(--branco);
 }
 
 .logo {
     display: flex;
     align-items: center;
+    background-color: var(--branco);
 }
 
 .logo img {
     width: 100px;
+    background-color: var(--branco);
 }
 
 .menu {
     display: flex;
     align-items: center;
+    background-color: var(--branco);
 }
 
 nav ul,
@@ -70,10 +77,12 @@ nav li {
     list-style: none;
     margin: 0;
     padding-right: 0;
+    background-color: var(--branco);
 }
 
 nav ul {
     display: flex;
+    background-color: var(--branco);
 }
 
 nav a {
@@ -81,6 +90,7 @@ nav a {
     padding: 14px 20px;
     color: var(--preto);
     text-decoration: none;
+    background-color: var(--branco);
 }
 
 nav .active a,
@@ -91,13 +101,13 @@ nav a:hover {
     transition: all 200ms ease-in-out;
 }
 
-
 #background {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 550px;
     z-index: 2;
+    background-color: var(--branco);
 }
 
 .background-single {
@@ -106,6 +116,7 @@ nav a:hover {
     background-size: cover;
     width: 100%;
     height: 550px;
+    background-color: var(--branco);
 }
 
 .column {
@@ -120,6 +131,7 @@ nav a:hover {
     justify-content: center;
     align-items: flex-end;
     top: 0;
+    background-color: transparent;
 }
 
 .background_headline h1 {
@@ -131,6 +143,7 @@ nav a:hover {
     margin: 0;
     padding: 0;
     width: 400px;
+    background-color: transparent;
 }
 
 .background_headline p {
@@ -142,6 +155,7 @@ nav a:hover {
     padding: 0;
     width: 400px;
     margin-top: 5px;
+    background-color: transparent;
 }
 
 .buttons {
@@ -149,6 +163,7 @@ nav a:hover {
     top: -80px;
     width: 400px;
     margin-top: 30px;
+    background-color: transparent;
 }
 
 .btns {
@@ -449,7 +464,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #151515;
+    background-color: var(--background-footer);
     display: flex;
     justify-content: center;
     font-size: 14px;
