@@ -420,6 +420,10 @@ nav a:hover {
     padding-bottom: 40px;
 }
 
+table th, table td, table th i, .table-responsive {
+    background-color: transparent;
+}
+
 #news {
     position: relative;
     display: flex;
