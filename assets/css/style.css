@@ -420,7 +420,12 @@ nav a:hover {
     padding-bottom: 40px;
 }
 
-table th, table td, table th i, .table-responsive {
+table th,
+table td, 
+table th i,
+.table-responsive,
+table th strong,
+table td strong {
     background-color: transparent;
 }
 
@@ -430,6 +435,10 @@ table th, table td, table th i, .table-responsive {
     justify-content: center;
     background-color: var(--fundo-section-2);
     padding-bottom: 40px;
+}
+
+.news-img {
+    background-color: var(--fundo-section-2);
 }
 
 .news-img img {
@@ -448,6 +457,7 @@ table th, table td, table th i, .table-responsive {
 .news-body {
     box-sizing: border-box;
     padding: 0 20px;
+    background-color: var(--fundo-section-2);
 }
 
 .news-body a {
@@ -465,6 +475,7 @@ table th, table td, table th i, .table-responsive {
     font-size: 12px;
     color: #64686F;
     font-weight: 600;
+    background-color: var(--fundo-section-2);
 }
 
 .news-title {
@@ -472,11 +483,13 @@ table th, table td, table th i, .table-responsive {
     font-weight: 600;
     margin-bottom: 15px;
     font-size: 20px;
+    background-color: var(--fundo-section-2);
 }
 
 .news-text {
     width: 100%;
     margin-bottom: 15px;
+    background-color: var(--fundo-section-2);
 }
 
 .widget table {
