@@ -320,6 +320,7 @@ nav a:hover {
 .widget {
     display: block;
     width: 100%;
+    background-color: transparent;
 }
 
 .widget_title {
@@ -329,6 +330,7 @@ nav a:hover {
     justify-content: flex-start;
     height: 23px;
     line-height: 23px;
+    background-color: transparent;
 }
 
 #last-challenge .widget_title{
@@ -341,6 +343,7 @@ nav a:hover {
     font-weight: bold;
     height: 23px;
     margin-left: 23px;
+    background-color: transparent;
 }
 
 .widget_title_bar {
@@ -385,6 +388,7 @@ nav a:hover {
     height: 50px;
     line-height: 50px;
     padding: 10px;
+    background-color: transparent;
 }
 
 .last-challenge-title i {
@@ -394,6 +398,7 @@ nav a:hover {
     color: var(--color-default);
     float: left;
     margin-right: 5px;
+    background-color: transparent;
 }
 
 .last-challenge-title i:hover{
@@ -404,6 +409,7 @@ nav a:hover {
     border-radius: 5px;
     font-size: 13px;
     text-align: left;
+    background-color: transparent;
 }
 
 #last-challenge-results {
