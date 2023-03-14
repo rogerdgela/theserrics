@@ -613,6 +613,12 @@ footer {
     color: var(--color-default);
 }
 
+.pagination-main {
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+}
+
 @media screen and (max-width: 1000px) {
     nav ul {
         font-size: 0.9rem;
