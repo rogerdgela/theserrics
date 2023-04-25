@@ -613,10 +613,22 @@ footer {
     color: var(--color-default);
 }
 
-.pagination-main {
-    display: flex;
+.pagination {
     background-color: transparent;
-    justify-content: center;
+}
+
+.pagination span {
+    background-color: transparent;
+    color: var(--color-default);
+}
+
+.pagination a {
+    color: var(--color-default);
+}
+
+.page-item.active .page-link {
+    background-color: var(--color-default) !important;
+    border-color: var(--color-default) !important;
 }
 
 @media screen and (max-width: 1000px) {
