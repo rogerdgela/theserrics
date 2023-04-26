@@ -38,7 +38,7 @@ a, a:hover {
 .wrapper-grid-content {
     min-height: 160px;
     height: 210px;
-    background: url(/assets/images/backgrounds/03.jpg);
+    background: url('../../assets/images/backgrounds/03.jpg');
     background-size: cover;
     background-position: center center;
     border-radius: 10px;
