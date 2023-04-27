@@ -1,15 +1,11 @@
 #about {
-    background-color: var(--fundo-section-3);
-}
-
-.about, .about p {
-    background-color: transparent;
-}
-
-#about {
     position: relative;
     display: flex;
     justify-content: center;
     background-color: var(--fundo-section-2);
     padding-bottom: 40px;
+}
+
+.about, .about p {
+    background-color: transparent;
 }
