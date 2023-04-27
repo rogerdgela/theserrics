@@ -617,7 +617,7 @@ footer {
     color: var(--color-default);
 }
 
-.pagination {
+.pagination, #pagination {
     background-color: transparent;
 }
 
