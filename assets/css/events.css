@@ -35,6 +35,10 @@
     margin-bottom: 0;
 }
 
+.container-wrapper-grid a:hover {
+    text-decoration: none;
+}
+
 .wrapper-grid-a {
     margin: 0px auto;
     border-radius: 10px;
@@ -45,10 +49,6 @@
     height: 350px;
     width: 100%;
     user-select: none;
-}
-
-a, a:hover {
-    text-decoration: none;
 }
 
 .wrapper-grid-content {
