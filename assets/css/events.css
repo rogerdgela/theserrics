@@ -59,9 +59,6 @@
 .wrapper-grid-content {
     min-height: 160px;
     height: 210px;
-    background: url('../../assets/images/backgrounds/03.jpg');
-    background-size: cover;
-    background-position: center center;
     border-radius: 10px;
 }
 
@@ -87,7 +84,7 @@
     margin-bottom: 5px;
     opacity: 0.75;
     background-color: transparent;
-    color: black;
+    color: var(--fundo-section-2);
 }
 
 .span-day {
@@ -95,7 +92,7 @@
     font-weight: 600;
     line-height: 1;
     margin-bottom: 5px;
-    color: rgb(89, 44, 129);
+    color: var(--color-default);
     background-color: transparent;
 }
 
@@ -105,14 +102,14 @@
     font-weight: 700;
     margin-bottom: 5px;
     opacity: 0.75;
-    color: var(--preto);
+    color: var(--fundo-section-2);
     background-color: transparent;
 }
 
 .span-hors {
     opacity: 0.75;
     font-size: 0.9rem;
-    color: var(--preto);
+    color: var(--fundo-section-2);
     background-color: transparent;
 }
 
@@ -130,14 +127,14 @@
     overflow: hidden;
     position: relative;
     background-color: transparent;
-    color: #000000;
+    color: var(--fundo-section-2);
 }
 
 .location-icon, .location-icon i {
     margin-left: 0px;
     margin-right: 0px;
     background-color: transparent;
-    color: red;
+    color: var(--color-default);
 }
 
 .location {
@@ -151,4 +148,30 @@
 .location-a {
     margin-left: 0px;
     margin-right: 0px;
+}
+
+.event-date, .event-location, .event-description, 
+.event-description strong, .event-description p {
+    background: transparent;
+}
+
+.event-date, .event-location, .event-description {
+    margin: 10px 0;
+}
+
+.event-description strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.event-date i {
+    color: var(--color-default);
+    background: transparent;
+    margin-right: 5px;
+}
+
+.event-location i {
+    color: var(--color-default);
+    background: transparent;
+    margin-right: 5px;
 }
